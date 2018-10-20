@@ -4,7 +4,6 @@
     <list default="true" id="2056590b-0832-4887-bc58-61380600240c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises.php" beforeDir="false" afterPath="$PROJECT_DIR$/exercises.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Portfolio/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+            <state relative-caret-position="224">
+              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -139,12 +138,12 @@
       <updated>1539994812366</updated>
       <workItem from="1539994813618" duration="9213000" />
       <workItem from="1540007860701" duration="2644000" />
-      <workItem from="1540050002551" duration="6920000" />
+      <workItem from="1540050002551" duration="9594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18777000" />
+    <option name="totallyTimeSpent" value="21451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="718" height="761" extended-state="0" />
@@ -266,8 +265,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        <state relative-caret-position="224">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
         </state>
       </provider>
     </entry>
