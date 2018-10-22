@@ -1,6 +1,7 @@
 <?php
 
 require_once 'BaseElement.php';
+require_once 'Printable.php';
 
 class Job extends BaseElement {
     public function __construct($title, $description){
@@ -22,6 +23,9 @@ class Job extends BaseElement {
         else {
             return "Job duration: $this->months months";
         }
+    }
 
+    public function getDescription() {
+        return $this->description;
     }
 }

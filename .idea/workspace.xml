@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2056590b-0832-4887-bc58-61380600240c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolio/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/app/Models/BaseElement.php" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/app/Models/BaseElement.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolio/app/Models/Job.php" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/app/Models/Job.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/jobs.php" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/jobs.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,7 +21,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolio/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="576">
               <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
             </state>
           </provider>
@@ -30,8 +30,8 @@
       <file leaf-file-name="jobs.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolio/jobs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+            <state relative-caret-position="530">
+              <caret line="43" column="2" lean-forward="true" selection-start-line="28" selection-end-line="43" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -39,8 +39,8 @@
       <file leaf-file-name="BaseElement.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolio/app/Models/BaseElement.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
+            <state relative-caret-position="736">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -48,8 +48,17 @@
       <file leaf-file-name="Job.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Portfolio/app/Models/Job.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+            <state relative-caret-position="464">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Printable.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Portfolio/app/Models/Printable.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -86,10 +95,11 @@
         <option value="$PROJECT_DIR$/Portfolio/index.html" />
         <option value="$PROJECT_DIR$/exercises.php" />
         <option value="$PROJECT_DIR$/Portfolio/index.php" />
-        <option value="$PROJECT_DIR$/Portfolio/app/Models/BaseElement.php" />
-        <option value="$PROJECT_DIR$/Portfolio/jobs.php" />
         <option value="$PROJECT_DIR$/Portfolio/app/Models/Project.php" />
+        <option value="$PROJECT_DIR$/Portfolio/app/Models/Printable.php" />
+        <option value="$PROJECT_DIR$/Portfolio/jobs.php" />
         <option value="$PROJECT_DIR$/Portfolio/app/Models/Job.php" />
+        <option value="$PROJECT_DIR$/Portfolio/app/Models/BaseElement.php" />
       </list>
     </option>
   </component>
@@ -175,12 +185,12 @@
       <workItem from="1539994813618" duration="9213000" />
       <workItem from="1540007860701" duration="2644000" />
       <workItem from="1540050002551" duration="15796000" />
-      <workItem from="1540152740532" duration="4103000" />
+      <workItem from="1540152740532" duration="6151000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31756000" />
+    <option name="totallyTimeSpent" value="33804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="719" height="762" extended-state="0" />
@@ -331,10 +341,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/app/Models/Printable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="576">
           <caret line="75" column="17" lean-forward="true" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/jobs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="43" column="2" lean-forward="true" selection-start-line="28" selection-end-line="43" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -347,22 +371,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio/app/Models/BaseElement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="40" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/jobs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        <state relative-caret-position="736">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio/app/Models/Job.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+        <state relative-caret-position="464">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>
