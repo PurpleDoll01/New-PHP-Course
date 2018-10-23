@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/Portfolio/vendor/composer" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/polyfill-mbstring" />
+    </include_path>
+  </component>
+</project>
