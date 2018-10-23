@@ -11,9 +11,12 @@
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/illuminate/support" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/nesbot/carbon" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/psr/http-message" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/psr/simple-cache" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/zendframework/zend-diactoros" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

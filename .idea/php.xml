@@ -13,6 +13,9 @@
       <path value="$PROJECT_DIR$/Portfolio/vendor/illuminate/container" />
       <path value="$PROJECT_DIR$/Portfolio/vendor/doctrine/inflector" />
       <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/zendframework/zend-diactoros" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/psr/http-message" />
     </include_path>
   </component>
 </project>
