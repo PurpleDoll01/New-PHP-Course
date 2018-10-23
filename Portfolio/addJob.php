@@ -25,11 +25,25 @@ $capsule->setAsGlobal();
 // Setup the Eloquent ORM... (optional; unless you've used setEventDispatcher())
 $capsule->bootEloquent();
 
-if (!empty($_POST)) {
-    $job = new Job();
-    $job->title = $_POST['title'];
-    $job->description = $_POST['description'];
-    $job->save();
+//if (!empty($_POST)) {
+//    $job = new Job();
+//    $job->title = $_POST['title'];
+//    $job->description = $_POST['description'];
+//    $job->save();
+//}
+
+if (isset($_POST['job'])) {
+    if ($_POST['job'] == 'job') {
+        $job = new Job();
+        $job->title = $_POST['title'];
+        $job->description = $_POST['description'];
+        $job->save();
+    } else if($_POST['job'] == 'project') {
+        $project = new Project();
+        $project->title = $_POST['title'];
+        $project->description = $_POST['description'];
+        $project->save();
+    }
 }
 
 ?>
@@ -47,7 +61,15 @@ if (!empty($_POST)) {
             <input type="text" name="title"><br>
             <label for="">Description:</label>
             <input type="text" name="description"><br>
-            <button type="submit" name="job">Save</button>
+            <button type="submit" value="job" name="job">Save</button>
+        </form>
+        <h1>Add a Project</h1>
+        <form action="addJob.php" method="post">
+            <label for="">Project:</label>
+            <input type="text" name="title"><br>
+            <label for="">Description:</label>
+            <input type="text" name="description"><br>
+            <button type="submit" value="project" name="job">Save</button>
         </form>
     </body>
 </html>
