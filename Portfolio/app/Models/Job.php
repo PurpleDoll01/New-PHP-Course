@@ -23,7 +23,4 @@ class Job extends Model {
         }
     }
 
-    public function getDescription() {
-        return $this->description;
-    }
 }

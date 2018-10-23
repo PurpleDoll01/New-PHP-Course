@@ -2,8 +2,9 @@
 
 require_once 'vendor/autoload.php';
 
-use lluminate\Database\Capsule\Manager as Capsule;
+use Illuminate\Database\Capsule\Manager as Capsule;
 use App\Models\Job;
+use App\Models\Project;
 
 $capsule = new Capsule;
 
@@ -46,7 +47,7 @@ if (!empty($_POST)) {
             <input type="text" name="title"><br>
             <label for="">Description:</label>
             <input type="text" name="description"><br>
-            <button type="submit">Save</button>
+            <button type="submit" name="job">Save</button>
         </form>
     </body>
 </html>
