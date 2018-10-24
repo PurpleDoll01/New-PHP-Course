@@ -4,7 +4,6 @@
     <list default="true" id="2056590b-0832-4887-bc58-61380600240c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/NewCourse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NewCourse.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Portfolio/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolio/public/index.php" afterDir="false" />
@@ -33,7 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Portfolio/public/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="42" column="64" lean-forward="true" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+              <folding>
+                <element signature="e#141#192#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Portfolio/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
@@ -104,9 +115,9 @@
         <option value="$PROJECT_DIR$/Portfolio/jobs.php" />
         <option value="$PROJECT_DIR$/Portfolio/index.php" />
         <option value="$PROJECT_DIR$/Portfolio/addJob.php" />
-        <option value="$PROJECT_DIR$/Portfolio/public/index.php" />
         <option value="$PROJECT_DIR$/Portfolio/.htaccess" />
         <option value="$PROJECT_DIR$/Portfolio/public/.htaccess" />
+        <option value="$PROJECT_DIR$/Portfolio/public/index.php" />
       </list>
     </option>
   </component>
@@ -135,6 +146,8 @@
       <path value="$PROJECT_DIR$/Portfolio/vendor/zendframework/zend-diactoros" />
       <path value="$PROJECT_DIR$/Portfolio/vendor/psr/http-factory" />
       <path value="$PROJECT_DIR$/Portfolio/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/aura/router" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/psr/log" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
@@ -207,18 +220,18 @@
       <workItem from="1540050002551" duration="15796000" />
       <workItem from="1540152740532" duration="11608000" />
       <workItem from="1540243386780" duration="16397000" />
-      <workItem from="1540329082304" duration="5203000" />
+      <workItem from="1540329082304" duration="8820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60861000" />
+    <option name="totallyTimeSpent" value="64478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-10" y="0" width="720" height="764" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968051" visible="true" weight="0.22356495" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968051" visible="true" weight="0.22356495" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -227,7 +240,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3280255" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3280255" />
       <window_info id="Favorites" order="2" sideWeight="0.50319487" side_tool="true" weight="0.2118003" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -290,6 +303,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <folding>
+            <element signature="e#141#192#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -507,13 +523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Portfolio/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="592">
-          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Portfolio/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-816">
@@ -532,6 +541,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Portfolio/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="42" column="64" lean-forward="true" selection-start-line="42" selection-start-column="64" selection-end-line="42" selection-end-column="64" />
+          <folding>
+            <element signature="e#141#192#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

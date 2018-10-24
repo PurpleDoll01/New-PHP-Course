@@ -3,6 +3,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Portfolio/app" isTestSource="false" packagePrefix="App\" />
+      <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/aura/router" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/composer" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/doctrine/inflector" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/illuminate/container" />
@@ -13,6 +14,7 @@
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/psr/http-factory" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/psr/simple-cache" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/symfony/translation" />
