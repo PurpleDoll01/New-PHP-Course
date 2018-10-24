@@ -1,23 +1,3 @@
-<?php
-
-use App\Models\Job;
-
-
-if (isset($_POST['job'])) {
-    if ($_POST['job'] == 'job') {
-        $job = new Job();
-        $job->title = $_POST['title'];
-        $job->description = $_POST['description'];
-        $job->save();
-    } else if($_POST['job'] == 'project') {
-        $project = new Project();
-        $project->title = $_POST['title'];
-        $project->description = $_POST['description'];
-        $project->save();
-    }
-}
-
-?>
 <html>
     <head>
         <title>Add Job</title>
