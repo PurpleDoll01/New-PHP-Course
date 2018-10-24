@@ -18,6 +18,8 @@
       <path value="$PROJECT_DIR$/Portfolio/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/Portfolio/vendor/aura/router" />
       <path value="$PROJECT_DIR$/Portfolio/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/polyfill-ctype" />
     </include_path>
   </component>
 </project>

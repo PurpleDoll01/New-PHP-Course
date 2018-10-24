@@ -16,8 +16,10 @@
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/psr/http-message" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/symfony/polyfill-ctype" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/symfony/polyfill-mbstring" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/twig/twig" />
       <excludeFolder url="file://$MODULE_DIR$/Portfolio/vendor/zendframework/zend-diactoros" />
     </content>
     <orderEntry type="inheritedJdk" />
