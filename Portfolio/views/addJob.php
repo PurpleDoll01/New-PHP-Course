@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1>Add Job</h1>
-        <form action="addJob.php" method="post">
+        <form action="/NewCourse/Portfolio/jobs/add" method="post">
             <label for="">Title:</label>
             <input type="text" name="title"><br>
             <label for="">Description:</label>
@@ -15,7 +15,7 @@
             <button type="submit" value="job" name="job">Save</button>
         </form>
         <h1>Add a Project</h1>
-        <form action="addJob.php" method="post">
+        <form action="/NewCourse/Portfolio/jobs/add" method="post">
             <label for="">Project:</label>
             <input type="text" name="title"><br>
             <label for="">Description:</label>

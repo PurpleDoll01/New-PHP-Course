@@ -48,6 +48,11 @@ $map->get('addJobs', '/NewCourse/Portfolio/jobs/add', [
     'action' => 'getAddJobAction'
 ]);
 
+$map->post('saveJobs', '/NewCourse/Portfolio/jobs/add', [
+    'controller' => 'App\Controllers\JobsController',
+    'action' => 'getAddJobAction'
+]);
+
 $matcher = $routerContainer->getMatcher();
 $route = $matcher->match($request);
 
@@ -74,7 +79,7 @@ if(!$route) {
     $actionName = $handlerData['action'];
 
     $controller = new $controllerName;
-    $controller->$actionName();
+    $controller->$actionName($request);
 }
 
 
