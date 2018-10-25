@@ -16,10 +16,21 @@ class JobsController extends BaseController {
 
             try {
                 $jobValidator->assert($postData);
+
+                $files = $request->getUploadedFiles();
+                $logo = $files['logo'];
+
+                if($logo->getError() == UPLOAD_ERR_OK) {
+                    $fileName = $logo->getClientFilename();
+                    $filePath = "uploads/$fileName";
+                    $logo->moveTo($filePath);
+                }
+
                 if ($postData['job'] == 'job') {
                     $job = new Job();
                     $job->title = $postData['title'];
                     $job->description = $postData['description'];
+                    $job->file = $filePath;
                     $job->save();
                 } else if($postData['job'] == 'project') {
                     $project = new Project();
