@@ -21,6 +21,7 @@
       <path value="$PROJECT_DIR$/Portfolio/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/Portfolio/vendor/symfony/polyfill-ctype" />
       <path value="$PROJECT_DIR$/Portfolio/vendor/respect/validation" />
+      <path value="$PROJECT_DIR$/Portfolio/vendor/vlucas/phpdotenv" />
     </include_path>
   </component>
 </project>
