@@ -20,7 +20,9 @@ class AuthController extends BaseController {
         $user = User::where('email', $postData['email'])->first();
         if($user) {
             if(\password_verify($postData['password'], $user->password)) {
-                return new RedirectResponse('/NewCurse/Portfolio/admin');
+                $_SESSION['userId'] = $user->id;
+//                return $this->renderHTML('admin.twig');
+                return new RedirectResponse('/NewCourse/Portfolio/admin');
             } else {
                 $responseMessage = 'Username and password dont match';
             }
@@ -31,6 +33,11 @@ class AuthController extends BaseController {
         return $this->renderHTML('login.twig', [
             'responseMessage' => $responseMessage,
         ]);
+    }
+
+    public function getLogout() {
+        unset($_SESSION['userId']);
+        return new RedirectResponse('/NewCourse/Portfolio/login');
     }
 }
 
